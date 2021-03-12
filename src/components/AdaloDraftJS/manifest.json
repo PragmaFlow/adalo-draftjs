@@ -1,0 +1,30 @@
+{
+  "displayName": "AdaloDraftJS",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Initial Content",
+      "type": "text",
+    },
+    {
+      "name": "placeholder",
+      "displayName": "Placeholder",
+      "type": "text"
+    },
+    {
+      "name": "onBlur",
+      "displayName": "Fired when user leaves the control, useful when saving",
+      "type": "action",
+      "arguments": [
+        {
+          "type": "text",
+          "displayName": "content"
+        }
+      ]
+    }
+  ]
+}
